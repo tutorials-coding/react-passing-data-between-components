@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useContext } from 'react'
 import Form from 'react-bootstrap/Form'
 
+import { Context } from '../context'
 import Child from '../Child'
 import './Parent.css'
 
 export const Parent = ({}) => {
-  const [name, setName] = useState('')
+  const { setName } = useContext(Context)
 
   const handleNameChange = (event) => {
     setName(event.target.value)
@@ -24,7 +25,7 @@ export const Parent = ({}) => {
         </Form.Group>
       </Form>
 
-      <Child name={name} />
+      <Child />
     </div>
   )
 }

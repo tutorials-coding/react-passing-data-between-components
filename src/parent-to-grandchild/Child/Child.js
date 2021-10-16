@@ -1,10 +1,10 @@
 import Grandchild from '../Grandchild'
 import './Child.css'
 
-export const Child = ({ name }) => {
+export const Child = () => {
   return (
     <div className="child__main-container">
-      <Grandchild name={name} />
+      <Grandchild />
     </div>
   )
 }
