@@ -1,0 +1,8 @@
+.parent__main-container {
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.parent__main-container > *:not(:last-child) {
+  margin-bottom: 10px;
+}
