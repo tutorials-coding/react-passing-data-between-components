@@ -1,6 +1,7 @@
 .parent__main-container {
   padding: 10px;
   background-color: lightgreen;
+  border-radius: 5px;
 }
 
 .parent__main-container > *:not(:last-child) {
