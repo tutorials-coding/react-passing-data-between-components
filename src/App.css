@@ -1,0 +1,11 @@
+.app-container {
+  padding: 5px 20px;
+}
+
+.example-container {
+  padding: 20px;
+}
+
+.example-container:not(:last-child) {
+  border-bottom: 3px solid gray;
+}
