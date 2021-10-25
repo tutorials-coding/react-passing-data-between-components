@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Child from '../Child'
 import './Parent.css'
 
-export const Parent = ({}) => {
+export const Parent = () => {
   const [name, setName] = useState('')
 
   const handleChange = (value) => {

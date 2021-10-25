@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form'
 import Child from '../Child'
 import './Parent.css'
 
-export const Parent = ({}) => {
+export const Parent = () => {
   const [name, setName] = useState('')
 
   const handleNameChange = (event) => {
