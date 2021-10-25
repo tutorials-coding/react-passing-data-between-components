@@ -5,13 +5,13 @@ import { Context } from '../context'
 import Child from '../Child'
 import './Parent.css'
 
+export const Parent = () => {
   const { setName } = useContext(Context)
 
   const handleNameChange = (event) => {
     setName(event.target.value)
   }
 
-export const Parent = () => {
   return (
     <div className="parent__main-container">
       <p>
