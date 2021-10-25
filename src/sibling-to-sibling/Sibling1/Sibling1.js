@@ -8,6 +8,10 @@ export const Sibling1 = ({ onChange }) => {
 
   return (
     <div className="sibling1__main-container">
+      <p>
+        <i>Sibling 1</i>
+      </p>
+
       <Form>
         <Form.Group>
           <Form.Label>Name</Form.Label>

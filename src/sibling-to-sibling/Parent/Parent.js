@@ -13,6 +13,10 @@ export const Parent = ({}) => {
 
   return (
     <div className="parent__main-container">
+      <p>
+        <i>Parent component</i>
+      </p>
+
       <Sibling1 onChange={handleNameChange} />
       <Sibling2 name={name} />
     </div>

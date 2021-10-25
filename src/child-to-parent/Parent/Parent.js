@@ -11,8 +11,12 @@ export const Parent = ({}) => {
 
   return (
     <div className="parent__main-container">
-      <Child onChange={handleChange} />
+      <p>
+        <i>Parent component</i>
+      </p>
       <span>Name is: {name || '<Not set>'}</span>
+
+      <Child onChange={handleChange} />
     </div>
   )
 }

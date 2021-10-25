@@ -8,6 +8,10 @@ export const Grandchild = () => {
 
   return (
     <div className="grandchild__main-container">
+      <p>
+        <i>Grand child Component</i>
+      </p>
+
       <span>Name is: {name || '<Not set>'}</span>
     </div>
   )

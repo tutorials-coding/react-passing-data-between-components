@@ -14,6 +14,10 @@ export const Parent = ({}) => {
 
   return (
     <div className="parent__main-container">
+      <p>
+        <i>Parent Component</i>
+      </p>
+
       <Form>
         <Form.Group>
           <Form.Label>Name</Form.Label>

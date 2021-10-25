@@ -8,6 +8,10 @@ export const Child = ({ onChange }) => {
 
   return (
     <div className="child__main-container">
+      <p>
+        <i>Child component</i>
+      </p>
+
       <Form>
         <Form.Group>
           <Form.Label>Name</Form.Label>
